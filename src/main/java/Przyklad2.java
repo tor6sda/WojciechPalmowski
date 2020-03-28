@@ -16,7 +16,7 @@ public class Przyklad2 {
                 int id = resultSet.getInt("add_id");
                 String street = resultSet.getString("ADD_STREET");
                 String city = resultSet.getString("ADD_CITY");
-                System.out.println("Adress  id: " +id+ " Adress street: " + " Adress City: ");
+                System.out.println("Adress  id: " +id+ " Adress street: " +street+ " Adress City: " + city);
             }
         } catch (SQLException e) {
             e.printStackTrace();
